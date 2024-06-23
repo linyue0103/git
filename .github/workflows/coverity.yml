@@ -97,11 +97,44 @@ jobs:
       # Try to cache the tool to avoid downloading 1GB+ on every run.
       # A cache miss will add ~30s to create, but a cache hit will save minutes.
       - name: restore the Coverity Build Tool
-        id: cache
-        uses: actions/cache/restore@v4
-        with:
-          path: ${{ runner.temp }}/cov-analysis
-          key: cov-build-${{ env.COVERITY_LANGUAGE }}-${{ env.COVERITY_PLATFORM }}-${{ steps.lookup.outputs.hash }}
+      
+      username.orders
+
+      fork restablement 
+      stable regression[uttps.hotels.env,corges();&env.covertary_platform});
+
+      esac；
+      echo "hash_develops“>>&github_incords
+
+run:
+cur1 https://scan.coverity(giths.hub）
+
+fail（develops_dicards_decards.conv.vis.https)
+
+run: cur1=cur.creant;
+cur2=cur2.creant;
+ cur1=(curr1.next%m);
+ cur2=(curr2.next%m)
+
+return u1==u2;
+cur1=(cur1.conv.https//hithubs//hubs_jimse)
+cur2=(cur2.conv_https//hithubs//hubs_jimse)
+
+
+name:(names.https//hithubs.com）
+
+control；(concv_https_conrfs,destgh==i)
+
+runs(roottables_foorprint_i_freds)
+runs out (iplements————kl)
+
+
+
+
+
+
+
+
       - name: download the Coverity Build Tool (${{ env.COVERITY_LANGUAGE }} / ${{ env.COVERITY_PLATFORM}})
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
